@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Centro Remiero</title>
+  <style>
+    /* Inserisci qui il tuo CSS per stilizzare il sito */
+    body {
+      background-color: lightblue;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+      color: navy;
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    
+    .btn {
+      background-color: navy;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Centro Remiero</h1>
+    <p>Benvenuti nel nostro centro remiero! Qui potrete godere della bellezza della natura e praticare sport acquatici come il canottaggio.</p>
+    <a href="#" class="btn">Prenota Ora</a>
+  </div>
+  
+  <!-- Inserisci qui eventuale JavaScript per interazioni dinamiche con il sito -->
+  <script>
+    // Ad esempio, potresti volere implementare un pop-up di conferma per la prenotazione
+    const btn = document.querySelector('.btn');
+    btn.addEventListener('click', function() {
+      alert('Grazie per aver prenotato con noi! Vi contatteremo presto per confermare la vostra prenotazione.');
+    });
+  </script>
+</body>
+
+</html>
