@@ -8,9 +8,9 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 50px;
+    width: 300vh;
+
     position: relative;
-    width: 1000vh;
-    height: 15vh;
   }
   
   #sponsor:before {
@@ -55,7 +55,7 @@ body {
 
 
 
-{ box-sizing: border-box; }
+ 
 body {
 font-family: "Open Sans", sans-serif;
 background: #56a6d8;
@@ -184,3 +184,4 @@ h2 {
     font-size: 40;
     font-family:  sans-serif;
   }
+ 
