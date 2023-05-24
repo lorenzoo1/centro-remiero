@@ -7,8 +7,8 @@ body {
 #sponsor {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  padding: 50px;
-  width: 186vh;
+  padding: auto;
+  width: 101.5%;
 
   position: relative;
 }
