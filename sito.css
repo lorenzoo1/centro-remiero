@@ -58,7 +58,7 @@ body {
 
 body {
 font-family: "Open Sans", sans-serif;
-background: #56a6d8;
+background: #00aeffef;
 color: rgb(255, 255, 255);
 text-align: center;
 text-decoration: none;
@@ -68,7 +68,7 @@ text-decoration: none;
 #main {
 position: relative;
 list-style: none;
-background: #0caff0ef;
+background: #00aeffef;
 font-weight: 400;
 font-size: 0;
 text-transform: uppercase;
